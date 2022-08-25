@@ -1,0 +1,23 @@
+25-08-2022
+
+Caracteristicas de python
+
+* Lenguaje de alto nivel
+* Interpretado
+* Paradigma funcional y orientado a objetos
+* Tipado dinamico
+
+
+TIPOS DE DATOS
+
+* Booleanos: True, False
+* Enteros: -10, 0 , 10, 99999
+* Flotantes: 12.5, 15.42423, 100.0
+* Strings: "", '', "123", """", "carros", "divisas"
+
+* Listas: [], [1,2,3], ["a", "b", "c"], [1, "a", 2, "b", 3, "c"]
+* Tuplas: (), (1,2,3), ("a", "b", "c"), (1, "a", 2, "b", 3, "c")
+* Diccionarios: {clave1:valor1, clave2:valor, clave3: valor}
+* Conjuntos: {1,2,3,4}, {"a", "b", "c"}
+
+

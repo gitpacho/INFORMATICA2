@@ -59,8 +59,7 @@ c = 5
 
 # Operadores de pertenencia
 
-
-""" Realizar las siguientes operaciones:      "a" in "abcdefg"
+""" Realizar las siguientes operaciones:      "a" in "abcdefg"  
                                               "A" in "ABCDEFG"
                                               1 in [1, 2, 3]
                                               1 in ["1", "2", "3"]

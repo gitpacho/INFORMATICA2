@@ -38,8 +38,32 @@ c = 5
                                                      "hola" or "verdadero"
                                                      "" or "hola"
                                                      "" or False
-
-
  """
 
-print("" or False)
+# Operadores de comparación
+
+""" Realizar las siguientes operaciones:       1 > 2   (Tienen que devolver booleanos, independientemente del tipo de variable)
+                                               1 < 3   
+                                               1 == 1  (=) El igual es otro operador
+                                               2 != 1  
+                                               3 >= 3
+                                               5 <= 2
+
+                                               4 > True
+                                               True > False
+                                               "hola" > True  #operacion no permitida
+                                               [] > [1,2,3]   # [] false, [1,2] verdadera
+                                               "a" > "b"      # Funciona muy diferente, compara el orden en el código ascii
+"""
+
+
+# Operadores de pertenencia
+
+
+""" Realizar las siguientes operaciones:      "a" in "abcdefg"
+                                              "A" in "ABCDEFG"
+                                              1 in [1, 2, 3]
+                                              1 in ["1", "2", "3"]
+                                              "hola" in "holamundo"
+                                              "Hola" not in "holamundo"
+"""

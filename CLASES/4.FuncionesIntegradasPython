@@ -1,0 +1,25 @@
+01-09-2022
+
+----- Funciones integradas de Python --------
+
+Son funciones predefinidas en Python (funciones built-in)
+
+Entrada y salida: input(), print(), format()
+Ayuda:            help(), dir(), type()
+Matematicas:      abs(), round(), pow() .....
+Conversiones:     int(), float(), str(), complex(),
+                  bool(), set(), list(), tuple()
+
+                  bin(), oct(), hex(), int()  #para realizar conversiones
+
+Secuencias:       range(), enumerate(), zip()
+
+Operaciondes en secuencias: len(), sum(), max(), min()
+                            sorted(), map(), filter()
+
+
+Estas funciones son las básicas y ya integradas en 
+python. Sus algoritmos ya están optimizados y podemos
+realizar multiples calculos y formateos
+
+

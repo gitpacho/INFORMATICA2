@@ -60,6 +60,33 @@ elif condicion3:
 print("El salario total es {}".format(salario_total))
 
 
+"""
+Una contraseña de un programa, debe incluir:
+
+* Contenga mayusculas
+* Contenga minusculas
+* Contenga números
+* Caracteres especiales
+* Por lo menos 8 caracteres en total
+
+Determine si al ingresar una contraseña, esta cumple con todas las 
+anteriores condiciones. """
+
+#contraseña = "jsfdlkLJKJ5678/&%$"
+#validez = False
+#
+#condicion1 = <Contenga mayusculas>
+#condicion2 = <Contenga minusculas>
+#condicion3 = <Contenga números>
+#condicion4 = <Caracteres especiales>
+#condicion5 = <Por lo menos 8 caracteres en total>
+#
+#if (condicion1 and condicion2 and condicion3 and condicion4 and condicion5):
+#    validez = True
+#else:
+#    validez = False
+#
+#print("Es valida o no")
 
 
 

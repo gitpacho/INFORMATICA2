@@ -1,0 +1,35 @@
+06 - 09 - 2022
+
+Hoy se tocarán los temas de condicionales y ciclos
+
+
+------------ CONDICIONAL IF ----------------
+
+Cumple con la operación lógica si=> entonces.
+Si la condición es verdadera => Las sentencias se ejecutan.
+En caso contrario (condicion es Falsa) => Las sentencias se ignoran.
+
+La notación utilizada en python es como sigue:
+
+if <condicion>:
+    <sentencias>
+    <sentencias>
+    <sentencias>
+    <sentencias>
+    ....
+
+if <condición1>:
+    <sentencias>
+elif <condición 2>:
+    <sentencias>
+elif <condición 3>:
+    <sentencias>
+elif <condición 4>:
+    <sentencias>
+else:
+    <sentencias restantes>
+
+
+
+
+

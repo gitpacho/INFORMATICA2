@@ -1,3 +1,38 @@
+06-09-2022
+
+---------------CICLO WHILE ------------
+
+Tiene similitud con la sentencia if. Sin embargo, 
+la condición puede cambiar.
+
+Si la condición es verdadera, se ejecutan todas las sentencias
+que contenga el ciclo while.
+Si la condición es falsa, no se ejecutan las sentencias contenidas
+
+--------------
+if condicion:
+    <sentencia>
+----------------
+
+----------------
+while <condicion>:
+    <sentencia1>
+    <sentencia2>
+    <sentencia3>
+    .....
+----------------
+
+
+----------------
+while <condicion>:
+    <sentencia1>
+    <sentencia2>
+    <sentencia3>
+else:
+    <Sentencias del else>
+----------------
+
+
 
 
 

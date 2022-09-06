@@ -1,19 +1,29 @@
-INFORME1 => (relatoria y ejercicios)
-            Hasta el tema 6
-            Los ejercicios se publicarán el jueves (15 sept) a las 6:00 pm
-            Se recoge en día sabado (17 sept) a las 6:00 pm
+Crear un repositorio gitHub ¡¡PRIVADO!! llamado INFORMES,
+Dentro de este repositorio, colocaremos las carpetas con los respectivos informes
+Para el primer informe creamos una carpeta llamada INFORME1.
 
--------------------------------------------------------------------------
-- Relatoria => Anotaciones con los temas vistos en clase
-               ¿qué espero con los temas de esta relatoria? (Objetivos)
-               con fechas, explicaciones de los temas, comentarios, dudas
-               ¿qué ejercicios puedo resolver con estos temas?, ....
-               Material de apoyo, cursos extras ...
+------------------------------------------------------------------------
+INFORME1 => Debe contener dos archivos (relatoria1.pdf y ejercicios1.py)
+            La relatoria va hasta el tema 6 (condicional if)
+            Los ejercicios a resolver se publicarán el jueves (15 sept) a las 6:00 pm
+            Debe subir los archivos el sabado (17 sept) antes de las 6:00 pm
 
 
-               - En un archivo en pdf
-               - Individual
-               - Sube a gitHub en un repositorio de INFORMES => carpeta Informe1 (archivo pdf (relatoria) y los ejercicios)
+Especificaciones de los archivos: relatoria1.pdf y ejercicios1.py  ====>
 
-- Ejercicios => De practica resulva los propuestos
+        - Relatoria => - En un archivo pdf
+                       - Individual
+                       - Se sube al repositorio
+                        
+                       Anotaciones con los temas vistos en clase
+                       ¿qué espero con los temas de esta relatoria? (Objetivos)
+                       con fechas, explicaciones de los temas, comentarios, dudas
+                       ¿qué ejercicios puedo resolver con estos temas?, ....
+                       Material de apoyo, cursos extras ...
+                       Lo que considere necesario ...
+
+        - Ejercicios =>  Se publicarán el 15 de Septiembre,
+                        -La extención de su archivo es .py
+                        -También se sube al repositorio
+
 

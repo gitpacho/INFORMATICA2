@@ -27,7 +27,9 @@ terminar el ciclo y avisar que el numero es correcto.
 #condicion = (numero_secreto != numero_usuario)
 #
 #while condicion:
+#    ...completar
 #    print("No es el número correcto")
+#    
 
 """
 Realice un ciclo while que imprima los números del 10 al 100, separados por guion(-)
@@ -35,32 +37,46 @@ sin salto de linea
 10 - 11 - 12 - 13 - ... 100
 """
 
-print("=========Ejercicios numeros del 1 al 100")
+print("\n\nEjercicios numeros del 1 al 100 ===> ")
+#forma 1
 contador = 10
 lista = []
 while (contador <= 100):
         lista.append(contador)
         contador = contador + 1
-print(str(lista))  ##
+print(str(lista)[1:-1].replace(",", "-"))  
 
+#forma 2
 contador = 10
 stringNumeros = ""
 while (contador <= 100):
         stringNumeros = stringNumeros + str(contador) + "-"
         contador = contador + 1
-print(stringNumeros)
+print("\n", stringNumeros)
 
 
 """
 Mostrar en pantalla los números del 200 al 100 utilizando ciclo while
-ahora haga que no haya un salto de linea
 """
-print("=======ejercicio 200 al 100 sin salto de linea==========")
+
+print("\n\nSecuencia 200 al 100 con salto de linea ======>")
 
 contador = 200
 while (contador>=100):
-        print(contador, end="\n")
+        print(contador, end="\n") #por defecto el end = "\n". Así que no es necesario escribirlo
         contador = contador - 1
+
+"""
+Mostrar en pantalla los números del 200 al 100 utilizando ciclo while
+sin salto de linea
+"""
+
+print("\n\nSecuencia 200 al 100 sin salto de linea ======>")
+contador = 200
+while (contador>=100):
+        print(contador, end=" ")
+        contador = contador - 1
+
 
 """
 Mostrar en pantalla los números del 200 al 100 utilizando ciclo while
@@ -69,25 +85,28 @@ ahora haga que el salto de linea se haga en cada 10 ciclos, así
 200 199 198 197 196 195 194 193 192 191 
 190 189 188 187 186 185 184 183 182 181 
 180 179 178 177 176 175 174 173 172 171 
-170 ......
-....
-..................                  100
+170 ...................................
+.......................................
+110 109 108 107 106 105 104 103 102 101
+100
 """
 
 
-print("=======ejercicio 200 al 100 con salto de linea cada 10 pasos==========")
+print("\n\nSecuencia 200 al 100 con salto de linea cada 10 pasos  =====>")
+#Forma 1
+contador = 200
+ciclo = 1
+while (contador>=100):
+        if ciclo < 10:
+                ciclo = ciclo + 1
+                print(contador, end=" ")
+        elif ciclo == 10:
+                ciclo = 1
+                print(contador, end="\n")
+        contador = contador - 1
 
-#contador = 200
-#ciclo = 1
-#while (contador>=100):
-#        if ciclo < 10:
-#                ciclo = ciclo + 1
-#                print(contador, end=" ")
-#        elif ciclo == 10:
-#                ciclo = 1
-#                print(contador, end="\n")
-#        contador = contador - 1
-
+#Forma 2
+print("\n\n")
 contador = 200
 while (contador>=100):
         if (str(contador)[-1] in "098765432"):
@@ -97,13 +116,15 @@ while (contador>=100):
         contador = contador - 1
 
 
-
 """
 Pida a un usuario que ingrese numeros, en caso de que así lo desee.
 De los numeros calcule cuál es el mayor de los ingresados.
 
 Si el usuario no desea ingresar más números el ciclo debe terminar
 """
+
+print("\n\n Ejercicio numero mayor ====>")
+#Forma1 ========>
 #respuesta = "si"
 #mayor = -99999999
 #while respuesta == "si":
@@ -116,7 +137,7 @@ Si el usuario no desea ingresar más números el ciclo debe terminar
 #                respuesta = "no"
 #print("El numero mayor es", mayor)
 
-print("\nEjercicio numero mayor ============")
+#Forma2 ========>
 x="si"
 lista = []
 while x == "si":
@@ -128,9 +149,5 @@ while x == "si":
                 x = "no"
 
 print(lista)
-print(max(lista))
-
-"""
-
-
-"""
+if len(lista)>0:
+        print("MÁXIMO => ", max(lista))

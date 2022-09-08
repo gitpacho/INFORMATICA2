@@ -1,0 +1,44 @@
+08-09-2022
+
+------------------------ CICLO FOR ----------------------_
+
+En este caso no es necesario evaluar una condición en un ciclo (tal como sucede con el while).
+Sabemos lo que vamos a recorrer (un iterable), por lo tanto utilizamos la sentencia for
+
+En python, el ciclo for se utiliza de una manera muy diferente
+a otros lenguajes, lo que se hace es recorrer un ITERABLE.
+
+---------notacion ----------------
+
+for <variable> in <iterable>:
+    <secuencia1>
+    <secuencia2>
+    <secuencia3>
+    ......
+
+
+<variable> => puede ser un nombre cualquiera elegido por el programador
+<iterable> => Cualquier cosa que se pueda recorrer. Cadenas, listas, tuplas, arreglos
+
+ejemplo:
+
+ cadena = "HolaMundoCruel"
+ lista = [1,2, 30, 100, 50, -20]
+ tupla = (1,2,3,1,2,3,1,2,3)
+ resultados = [1,-1,1,-1,1,-1]
+ rango = range(1,100)
+
+for caracter in cadena:
+    print(caracter, end="--")
+
+for i in lista:
+    print(i, end= "--")
+
+for numero in tupla:
+    print(numero, end= "--")
+
+for resultado in resultados:
+    print(resultado, end= "--")
+
+for i in rango:
+    print(i, end="--")

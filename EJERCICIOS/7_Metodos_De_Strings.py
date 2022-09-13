@@ -5,14 +5,14 @@
 cadena = "MundoCruel"
 
 """
-buscar métodos que hagan lo siguiente:
+Buscar métodos que hagan lo siguiente:
     * Retornar caracteres en mayusculas
     * Retornar caracteres en minusculas
     * Retornar el numero de veces que se repite un caracter
     * Retornar si la cadena es alfabetica
     * Retornar si la cadena es alfanumerica
     * Retornar si la cadena contiene numeros
-    * Reemplazar una letra por otra
+    * Reemplazar una letra o palabra por otra 
 """
 
 cadena.upper()     #===> Retorna una nueva cadena en mayuscula

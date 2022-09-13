@@ -3,16 +3,15 @@
 
 ---------------------ITERABLES Y MÉTODOS ------------------
 
-Todo elemento en python es un objeto.
-Los objetos poseen métodos (funcionalidades) propias de cada tipo de objetos. 
+Es importante saber que todo elemento en python es un objeto.
+Y que cada objeto posee sus propios métodos métodos (funcionalidades). 
 
 Entre los objetos más comunes que se tienen están: strings, listas y diccionarios.
-Es importante mencionar que para utilizar lo métodos se debe utilizar el objeto seguido por
-un punto seguido por el nombre del método: Ejemplos:
+Cada uno de ellos posee métodos propios para ejecutar alguna funcionalidad. Por ejemplo:
 
-cadena.count("A")
-lista.append(1)
-diccionario.get("cristian")
+cadena.count("A")             #Cuenta el número de veces que se repite el caracter "A" en la cadena
+lista.append(1)               #Agrega el entero 1 a la lista
+diccionario.get("cristian")   #Obtiene el elemento del diccionario cuya clave es "cristian"
 
 
 Veamos algunos de los métodos más importantes:

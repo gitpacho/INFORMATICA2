@@ -64,7 +64,7 @@ cadena = "Anita no lava la tina de lunes a viernes"
 # Extraer el ultimo elemento
 # extrar los dos elementos de la mitad
 # Extraer la cadena al revés
-# Extraer del 10mo al 15avo elementos al revéz
+# Extraer del 10mo al 15avo elementos al revés
 # Extraer cada 10mo elemento
 
 

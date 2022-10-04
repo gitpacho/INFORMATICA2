@@ -121,8 +121,8 @@ print(diccionario)
 
 """ 
 
-Nombre                         Materias
-                    Cuantica Etica Deportes Lenguas
+                               Materias
+    Nombre          Cuantica Etica Deportes Lenguas
 Juan Gutierrez        2.0     5.0     1.3     3.2
 Maria Snowden         3.1     4.9     2.2     1.1
 Pedro Gonzalez        5.0     3.8     3.1     4.1

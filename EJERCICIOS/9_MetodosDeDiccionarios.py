@@ -120,7 +120,6 @@ print(diccionario)
 
 
 """ 
-
                                Materias
     Nombre          Cuantica Etica Deportes Lenguas
 Juan Gutierrez        2.0     5.0     1.3     3.2
@@ -137,6 +136,17 @@ Cristian Playonero    0.5     1.1     3.4     3.2
 
  """
 
+
+#A pedal ==>
+calificaciones = {
+    "Mariana Pajon": {"Cuantica": 2.2,"Etica": 2.5 ,"Deportes": 4.9,"Lenguas": 3.3},
+    "Cristian Playonero": {"Cuantica": 0.5,"Etica": 2.2 ,"Deportes": 2.5,"Lenguas": 5.0},
+    "Enilse Lopez": {"Cuantica": 5.0,"Etica": 2.2 ,"Deportes": 2.5,"Lenguas": 5.0},
+}
+
+print("-------", calificaciones["Mariana Pajon"]["Deportes"])
+
+#Construya la base de datos de una manera rapida o automatica
 
 
 

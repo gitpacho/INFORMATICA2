@@ -133,28 +133,49 @@ Daniela Pineda        5.0     4.3     2.7     1.2
 Esteban Vazco         3.1     5.0     1.6     3.2
 Enilse Lopez          5.0     2.2     2.5     5.0
 Cristian Playonero    0.5     1.1     3.4     3.2
-
  """
 
+#06-10-2022
 
-#A pedal ==>
+#A pedal ===>  
 calificaciones = {
-    "Mariana Pajon": {"Cuantica": 2.2,"Etica": 2.5 ,"Deportes": 4.9,"Lenguas": 3.3},
-    "Cristian Playonero": {"Cuantica": 0.5,"Etica": 2.2 ,"Deportes": 2.5,"Lenguas": 5.0},
-    "Enilse Lopez": {"Cuantica": 5.0,"Etica": 2.2 ,"Deportes": 2.5,"Lenguas": 5.0},
+    "Juan Gutierrez":     {"Cuantica" : 2.0,  "Etica": 5.0,  "Deportes": 1.3,  "Lenguas": 3.2},
+    "Maria Snowden":      {"Cuantica" : 3.1,  "Etica": 4.9,  "Deportes": 2.2,  "Lenguas": 1.1},
+    "Pedro Gonzalez":     {"Cuantica" : 5.0,  "Etica": 3.8,  "Deportes": 3.1,  "Lenguas": 4.1},
+    "Angelica Lozano":    {"Cuantica" : 2.1,  "Etica": 2.7,  "Deportes": 4.1,  "Lenguas": 3.2},
+    "Pablo Iglesias":     {"Cuantica" : 3.2,  "Etica": 1.6,  "Deportes": 5.0,  "Lenguas": 1.2},
+    "Mariana Pajon":      {"Cuantica" : 2.2,  "Etica": 2.5,  "Deportes": 4.9,  "Lenguas": 3.3},
+    "Esteban Loaiza":     {"Cuantica" : 2.1,  "Etica": 3.4,  "Deportes": 3.8,  "Lenguas": 4.3},
+    "Daniela Pineda":     {"Cuantica" : 5.0,  "Etica": 4.3,  "Deportes": 2.7,  "Lenguas": 1.2},
+    "Esteban Vazco":      {"Cuantica" : 3.1,  "Etica": 5.0,  "Deportes": 1.6,  "Lenguas": 3.2},
+    "Enilse Lopez":       {"Cuantica" : 5.0,  "Etica": 2.2,  "Deportes": 2.5,  "Lenguas": 5.0},
+    "Cristian Playonero": {"Cuantica" : 0.5,  "Etica": 1.1,  "Deportes": 3.4,  "Lenguas": 3.2},
 }
 
-print("-------", calificaciones["Mariana Pajon"]["Deportes"])
+#Automaticamente =>
+data = [["Juan Gutierrez",        2.0,     5.0,     1.3,     3.2],
+        ["Maria Snowden",         3.1,     4.9,     2.2,     1.1],
+        ["Pedro Gonzalez",        5.0,     3.8,     3.1,     4.1],
+        ["Angelica Lozano",       2.1,     2.7,     4.1,     3.2],
+        ["Pablo Iglesias",        3.2,     1.6,     5.0,     1.2],
+        ["Mariana Pajon",         2.2,     2.5,     4.9,     3.3],
+        ["Esteban Loaiza",        2.1,     3.4,     3.8,     4.3],
+        ["Daniela Pineda",        5.0,     4.3,     2.7,     1.2],
+        ["Esteban Vazco",         3.1,     5.0,     1.6,     3.2],
+        ["Enilse Lopez",          5.0,     2.2,     2.5,     5.0],
+        ["Cristian Playonero",    0.5,     1.1,     3.4,     3.2]]
 
-#Construya la base de datos de una manera rapida o automatica
+diccionarioCalificaciones = {}
+for estudiante in data:
+  diccionarioCalificaciones[estudiante[0]] = {"Cuantica": estudiante[1], "Etica":estudiante[2] ,
+                                              "Deportes":estudiante[3], "Lenguas":estudiante[4]}
+print(diccionarioCalificaciones)
 
-
-
-
-
-
-
-
+"""
+Calcular el promedio de calificaciones de cada estudiante usando diccionarioCalificaciones
+Determinar los 3 estudiantes con mejor y peor promedio
+Calcular el promedio de las 4 materias
+"""
 
 
 

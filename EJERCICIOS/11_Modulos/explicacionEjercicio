@@ -1,0 +1,20 @@
+Crear 2 modulos:
+
+*  interfaz
+*  logica
+
+cree una variable y 3 funciones para interfaz
+ -cantidadDeFunciones
+ -separador 
+ -imprimirNombre
+ -imprimirVariable
+
+cree 3 funciones para logica que hagan lo siguiente:
+ -sumar 3 numeros
+ -sumar n numeros
+ -sumar dos listas, elemento a elemento
+
+Finalmente consuma todas las funciones y variables
+creadas, desde otro modulo (main.py)
+main.py será el único archivo desde donde se
+pueden consumir los modulos anteriores

@@ -18,5 +18,5 @@ def imprimirNombre(nombre):
     print(saludo)
 
 def imprimirVariable(nombreVariable, variable):
-    print(nombreVariable + " ====> " + variable)
+    print(nombreVariable + " ====> " + str(variable))
 

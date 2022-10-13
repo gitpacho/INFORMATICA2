@@ -7,3 +7,9 @@ print(interfaz.__file__)
 
 interfaz.separador("@")
 interfaz.separador("-")
+interfaz.imprimirNombre("Cristian")
+respuesta = [1,2,3]
+interfaz.imprimirVariable("Respuesta", respuesta)
+
+
+

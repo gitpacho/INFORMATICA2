@@ -24,8 +24,3 @@ def sumarListas(lista1, lista2):
         suma = lista1[indice] + lista2[indice]
         listaResultado.append(suma)
     return listaResultado
-
-
-
-
-

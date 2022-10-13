@@ -25,7 +25,7 @@ def saludarEstudiante(nombre):  #DEfinicion de la funcion
     saludo = "hola" + " " + nombre
     return saludo
 
-saludoRecibido = saludarEstudiante("Cristian Pachon")
+saludoRecibido = saludarEstudiante("Cristian Pachon")  #Invocacion o llamado de la funcion
 
 
 

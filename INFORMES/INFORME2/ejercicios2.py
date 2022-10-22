@@ -78,11 +78,11 @@ El ejercicio consiste en almacenar la información en un diccionario llamado emp
 Su diccionario debe permitir acceder a la informacion mostrada, utilizando dos indexados. 
 
 Para mayor comprensión, por ejemplo si usted ejecuta estas lineas:
-        * empleados["001"]["Cargo"] ===> esta linea retornara "Ingeniero"
-        * empleados["005"]["Nombre"] ===> esta linea retornara "Camilo Rodriguez"
-        * empleados["016"]["Salario"] ===> esta linea retornara 1100000
-        Es decir, en el primer indexado se podrá insertar el codigo (ej: "001", "002", .."018" (strings)),
-        en el segundo indexado se podrá indicar la información de interés ("Nombre", "Cargo", "Salario"  (strings))
+        * empleados["001"]["Cargo"] ===> esta linea retornara "Ingeniero" (str)
+        * empleados["005"]["Nombre"] ===> esta linea retornara "Camilo Rodriguez" (str)
+        * empleados["016"]["Salario"] ===> esta linea retornara 1100000 (int)
+        Es decir, en el primer indexado se podrá insertar el codigo (ej: "001", "002", .."018"),
+        en el segundo indexado se podrá indicar la información de interés ("Nombre", "Cargo", "Salario")
 """
 
 #------------------------ EJERCICIO 3 --------------------------------

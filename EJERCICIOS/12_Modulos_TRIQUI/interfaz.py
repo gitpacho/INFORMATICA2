@@ -28,16 +28,17 @@ tableroLista = ["x", "o", None, None,None,None,None,None,None]
 
 def dibujarTablero(tableroLogico:list):
     tableroVisual = """
-                {}  | {} |  {}
+                {}  | {} | {}
                 ------------- 
-                {}  | {} |  {}
+                {}  | {} | {}
                 ------------- 
-                {}  | {} |  {}
+                {}  | {} | {}
     """.format(tableroLogico[0], tableroLogico[1],
                tableroLogico[2], tableroLogico[3],
                tableroLogico[4], tableroLogico[5],
                tableroLogico[6], tableroLogico[7],
                tableroLogico[8])
+    tableroVisual = tableroVisual.replace("None", " ")
     print(tableroVisual)
 
 

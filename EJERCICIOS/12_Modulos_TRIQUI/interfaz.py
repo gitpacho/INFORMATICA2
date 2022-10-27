@@ -37,6 +37,7 @@ def dibujarTablero(tableroLogico:list):
                tableroLogico[4], tableroLogico[5],
                tableroLogico[6], tableroLogico[7],
                tableroLogico[8])
+
     print(tableroVisual)
 
 

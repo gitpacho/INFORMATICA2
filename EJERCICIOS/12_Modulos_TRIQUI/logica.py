@@ -37,4 +37,8 @@ def determinarGanador(tableroLogico):
 
 
 if __name__ == "__main__":
-    pass
+    tablero = obtenerTableroLogico()
+    tableroNuevo = actualizarTableroLogico(tablero, 0, "x")
+    print(tableroNuevo)
+    ganador =  determinarGanador(["x", "x", "x", None, None,None,None,None,None, ])
+    print(ganador)

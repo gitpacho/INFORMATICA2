@@ -22,6 +22,7 @@ def explicarJuego():
     =====================================================
     """
     print(explicacion)
+    input("...Ingrese enter para empezar el juego...")
 
 tableroLista = ["x", "o", None, None,None,None,None,None,None]
 
@@ -37,11 +38,12 @@ def dibujarTablero(tableroLogico:list):
                tableroLogico[4], tableroLogico[5],
                tableroLogico[6], tableroLogico[7],
                tableroLogico[8])
-
     print(tableroVisual)
 
 
 if __name__ == "__main__":
     explicarJuego()
-    tablero = [None]*9
-    dibujarTablero(tablero)
+    tablero1 = [None]*9
+    tablero2 = ["x"]*9
+    dibujarTablero(tablero1)
+    dibujarTablero(tablero2)

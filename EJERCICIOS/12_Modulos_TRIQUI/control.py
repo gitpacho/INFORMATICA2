@@ -3,7 +3,6 @@ import logica
 
 interfaz.explicarJuego()
 tableroJuego = logica.obtenerTableroLogico()
-
 for turno in ["x", "o", "x", "o","x", "o","x", "o", "x"]:
     print("\nTurno jugador ", turno)
     posicion = int(input("   Ingrese posicion de juego: "))

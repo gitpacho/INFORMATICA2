@@ -1,0 +1,133 @@
+#01-11-2022
+
+----------------  CLASES Y OBJETOS ---------------
+
+Los objetos, clases y métodos son parte de
+un paradigma de programacion llamado: programacion
+orientada a objetos (POO). Que es diferente
+al anterior visto: programación funcional.
+
+-- La POO, consiste en modelar (abstraer) cualquier
+   problema en: clases, objetos (instancias) y metodos (funciones)
+- La POO permite relacionar entidades distintas (estudiante, materias, profesores)
+-
+------- DEFINICIONES INDISPENSABLES PARA ENTERNDER POO-----
+CLASE: Es un modelo o plantilla genérica a partir del cual
+         se crean objetos. Una clase dota a un objeto con dos
+         ingredientes: Atributos Y METODOS
+
+OBJERO O INSTANCIA: Es una entidad creada a partir de una clase,
+                    dotada con atributos y metodos
+
+ATRIBUTOS O PROPIEDADES: Son aquellos datos que caracterizan
+                        a un objeto, se obtienen a partir 
+                        de un clase generica. Sin embargo, cada 
+                        objeto se puede diferenciar de otro, al 
+                        atribuirle atributos distintos
+
+METODOS: Son aquellas funcionalidades de los objetos, se heredan
+        a partir de una clase genérica. 
+
+INSTANCIAR: Actividad escencial de la POO, 
+            consiste en crear objetos (instancias) a partir
+            de una clase
+
+-------------------EJEMPLOS---------------------------
+
+1) Determinar las clases, objetos, atributos y métodos de los siguientes elementos
+de python
+
+* Cadenas de texto
+* Los numeros enteros
+* Secuencias de números
+
+* Cadenas de texto
+----------------------------------------------------------------------------
+CLASE     =>   str (string)
+OBJETOS   =>   "hola mundo"     |   "Unal"              |   "Reprobado2"
+ATRIBUTOS =>   Tamaño 10        |   Tamaño 4            |   Tamaño 10
+               Es Alfabetico    |   Es Alfabetico       |   Es alfa-numérico
+               Posee minusculas |   Posee mayus y minus |   Posee mayus
+MÉTODOS   =>   +, *, len()      |   +, *, len()         |   +, *, len()
+
+* Los numeros enteros
+----------------------------------------------------------------------------
+CLASE     =>   int (entero)
+OBJETOS   =>   2                |   19               |   100
+ATRIBUTOS =>   Posee 1 dígito   |   Posee 2 dígitos  |   Posee 3 dígitos
+               Es primo         |   Es primo         |   Es no primo
+               Es par           |   Es Impar         |   Es par
+MÉTODOS   =>   +,-,*, %         |   +,-,*, %         |   +-*%
+
+* Secuencias de numeros
+----------------------------------------------------------------------------
+CLASE     =>   list (lista)
+OBJETOS   =>   [1.0 ,3.0 ,4.0]  |   []                  |   [0,0]
+ATRIBUTOS =>   Tamaño 3         |   Tamaño 0            |   Tamaño 2
+               Mayor es el 4.0  |   No posee mayor      |   Mayor es el 0
+               Posee flotantes  |   No posee elementos  |   Posee enteros
+MÉTODOS   =>   append,len,min.. |   append,len,min..    |   append,len,min..
+
+
+2) Determinar las clases, objetos, atributos y métodos de los siguientes elementos
+de la vida real
+
+* Bandeja paisa, sancocho de gallina, ajiaco
+* BMW-I8, FERRARI-458, Un AutoLegal, 
+* Profesora Elisabeth Restrepo, profesor Luis Fernando Mulcue, profesor Cristian Pachon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

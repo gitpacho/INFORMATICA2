@@ -34,7 +34,7 @@ ajiacoSantafereño = ComidaColombiana("papa", "pollo", "aguacate")
 print("Es instancia? =>", isinstance(ajiacoSantafereño, ComidaColombiana))
 
 #Cómo accedo a los atributos de un objeto
-atributoA = bandejaPaisa.ingrediente1
+atributoA = bandejaPaisa.ingrediente2
 atributoB = sancochoDeGallina.ingrediente1
 atributoC = ajiacoSantafereño.ingrediente2
 print("atributos =>", atributoA, atributoB, atributoC)

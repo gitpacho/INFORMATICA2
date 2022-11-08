@@ -34,13 +34,30 @@ ajiacoSantafereño = ComidaColombiana("papa", "pollo", "aguacate")
 print("Es instancia? =>", isinstance(ajiacoSantafereño, ComidaColombiana))
 
 #Cómo accedo a los atributos de un objeto
-atributoA = bandejaPaisa.ingrediente3
+atributoA = bandejaPaisa.
 atributoB = sancochoDeGallina.ingrediente1
 atributoC = ajiacoSantafereño.ingrediente2
 print("atributos =>", atributoA, atributoB, atributoC)
 
 
-#Cómo acceder a los métodos de un objeto
+#Cómo acceder a los métodos de un objetoingrediente3
+salida1 = bandejaPaisa.provocar("tengo hambre")
+salida2 = ajiacoSantafereño.nutrir("Muero de hambre")
+salida3 = sancochoDeGallina.provocar("huele mal")
+print("salidas =>", salida1, salida2, salida3, sep=" -- ")
 
 
-print(ComidaColombiana.__dict__)
+
+"""
+Ejercicio:
+    1) Crear una clase llamada Profesores
+        con los atributos: nombre, edad, salario
+        con los metodos: enseñar, calificar
+    2) Crear una clase llamada Decimal
+       con un unico atributo: valorNumerico
+       con los metodos convertirABinario, conventirAOctal, convertirAHexadecimal,  
+"""
+
+
+
+

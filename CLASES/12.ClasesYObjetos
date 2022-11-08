@@ -99,14 +99,13 @@ ATRIBUTOS =>   Mujer            |   Hombre           |  Hombre
                Mayor de 30      |   Mayor de 30      |  Menor de 30
                Exitosa          |   Exitoso          |  Exitoso
 MÉTODOS   =>   Enseñar, evaluar |   Enseñar, evaluar |  Enseñar, evaluar
-----------------------------------------------------------------------------
 
 
 ----------------------Cómo crear mis propias clases en python -----------------------
 
-
 Las clases en python, se definen utilizando las palabras reservadas:
 
+clase, objetos, atributos, metodos
 class                               ==>  Avisa a python que se creará una clase genérica (comida, autos, profesores.....)
 def __init__(self, <ValorAtributo>) ==>  Mecanismo mediante el cual creamos atributos genéricos, se usa solo una vez
 def <metodo>(self, <valorEntrada>)  ==>  Mecanismo mediante el cual creamos métodos, se usa las veces que quiera, dependiendo de la cantidad de funcionalidades de esa clase
@@ -118,7 +117,7 @@ class <NombreDeLaClase>:
    def __init__(self, <ValorAtributo>):
       self.<NombreAtributo> = <ValorAtributo>
    
-   def <metodo1>(self, <ValorEntrada>):
+   def alimentar(self, <ValorEntrada>):
       <sentencias>
       return <valorDeRetorno>
    
@@ -131,70 +130,4 @@ class <NombreDeLaClase>:
    def <metodoN>(self, <ValorEntrada>):
       <sentenciasN>
       return <valorDeRetornoN>
---------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-------------------------------------------

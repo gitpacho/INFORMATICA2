@@ -47,7 +47,6 @@ salida3 = sancochoDeGallina.provocar("huele mal")
 print("salidas =>", salida1, salida2, salida3, sep=" -- ")
 
 
-
 """
 Ejercicio:
     1) Crear una clase llamada Profesores
@@ -57,7 +56,3 @@ Ejercicio:
        con un unico atributo: valorNumerico
        con los metodos convertirABinario, conventirAOctal, convertirAHexadecimal,  
 """
-
-
-
-

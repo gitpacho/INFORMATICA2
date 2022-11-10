@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
 
 """
-crear las clases Octal, Hexadecimal y Binario
+crear las clases Decimal,Binario Octal, Hexadecimal 
 e incluya los metodos necesarios para realizar las conversiones
 a los otros sistemas numericos
 """

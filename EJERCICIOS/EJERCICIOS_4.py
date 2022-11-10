@@ -85,7 +85,7 @@ MÉTODOS   =>   enseñar, evaluar         |   enseñar, evaluar       |  enseña
     b) Imprima los atributos del objeto PROFESOR3
     c) Cambie el atributo edad del objeto PROFESOR3 a 20
     d) Ejecute el método enseñar del objeto PROFESOR1, tomando una experiencia alta y una energía baja. Muestre la calidad de su clase en pantalla
-    e) Ejecute el método evaluar del objeto PROFESOR2, tomando un buen estado de animo. Muestre el nivel de dificultaden pantalla
+    e) Ejecute el método evaluar del objeto PROFESOR2, tomando un buen estado de animo. Muestre la evaluacion en pantalla
 """
 
 #==> EJERCICIO 3

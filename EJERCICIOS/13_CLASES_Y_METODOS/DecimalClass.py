@@ -34,3 +34,16 @@ if __name__ == "__main__":
     print(decimal2.convertirAHexadecimal())
 
 
+
+"""
+crear las clases Octal, Hexadecimal y Binario
+e incluya los metodos necesarios para realizar las conversiones
+a los otros sistemas numericos
+"""
+
+
+
+
+
+
+

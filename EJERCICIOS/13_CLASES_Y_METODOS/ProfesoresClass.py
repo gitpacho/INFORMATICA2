@@ -23,6 +23,23 @@ class Profesores:
         elif estadoAnimo == "triste":
             return "su nota es 0.0"
 
+if __name__ == "__main__":
+    profesor1 = Profesores("Elisabeth Restrepo", 20, 15000000)
+    profesor2 = Profesores("Luis Mulcue", 50, 5000000)
+
+    print(profesor1.nombre)
+    print(profesor2.salario)
+    print(profesor1.enseñar(20))
+    print(profesor2.calificar("triste"))
+
+
+
+
+
+
+
+
+
 
 
 

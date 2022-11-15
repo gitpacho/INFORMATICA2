@@ -1,0 +1,30 @@
+#15-11-2022
+
+
+#-----------------Persistencia de datos--------------------------
+
+Es el alamacenamiento de la informacion de manera permanente
+Es almacenar la informacion en un archivo
+Es almacenar la informacion en disco duro
+
+
+Extensiones para almacenar datos:  .txt
+                                   .xsml
+                                   .csv
+                                   .pdf
+                                   .doc
+                                   .sql
+                                   .json   (almacenamiento que utilizaremos)
+
+-------------¿Qué es json? -----------------
+
+Es un formato para almacenar datos tipo objeto javaScript
+
+
+import json
+
+with open(<ruta>, <opcion>) as file:  <===Lectura
+    notas = json.load(file)
+
+with open(<ruta>, <opcion>) as file:  <==Escritura 
+    json.dump(<data>, file)

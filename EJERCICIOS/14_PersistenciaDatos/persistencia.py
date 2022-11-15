@@ -52,5 +52,5 @@ nombreArchivo = "estudiantes.json"
 ruta = "EJERCICIOS/14_PersistenciaDatos/" + nombreArchivo
 opcion = "w"
 
-
-
+with open(ruta, opcion) as file:
+    json.dump(data, file)

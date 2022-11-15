@@ -1,3 +1,7 @@
+#15-11-2022
+
+#---------- Escritura de archivos json
+
 data = list(range(1,1000,2))
 
 import json
@@ -26,5 +30,27 @@ Angie Gomez          4.1    4.7    4.4
 Angelica Lozano      3.1    1.0    2.6 
 Camilo Restrepo      5.0    5.0    1.0 
 """
+
+
+data = {
+            "Maria Gonzalez"     :  [3.1,    3.1,    1.2], 
+            "Camilo Suarez"      :  [3.2,    4.0,    1.1],
+            "Esteban Rodriguez"  :  [3.2,    4.1,    2.2],
+            "Mariana Rosero"     :  [5.0,    5.0,    5.0], 
+            "Jose Nuñez"         :  [5.0,    4.0,    2.5], 
+            "Esteban Quesada"    :  [3.4,    4.0,    2.6], 
+            "Mauricio Velazquez" :  [5.0,    4.2,    2.1], 
+            "Julia Quintero"     :  [2.0,    2.2,    2.1], 
+            "Mauricio Lizcano"   :  [3.7,    4.1,    4.7], 
+            "Miguel Pineda"      :  [1.0,    1.1,    3.3], 
+            "Angie Gomez"        :  [4.1,    4.7,    4.4], 
+            "Angelica Lozano"    :  [3.1,    1.0,    2.6], 
+            "Camilo Restrepo"    :  [5.0,    5.0,    1.0] 
+        }
+
+nombreArchivo = "estudiantes.json"
+ruta = "EJERCICIOS/14_PersistenciaDatos/" + nombreArchivo
+opcion = "w"
+
 
 

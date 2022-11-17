@@ -1,0 +1,6 @@
+[
+    {"nombre":"Cristian Pachon", "edad": 20, "codigo": "019", "notas": [0.0, 0.0, 1.5]},
+    {"nombre":"Maria Jimenez"  , "edad": 15, "codigo": "020", "notas": [5.0, 2.0, 5.0]},
+    {"nombre":"Lesly Cañas"    , "edad": 19, "codigo": "021", "notas": [5.0, 5.0, 5.0]},
+    {"nombre":"Nicolas Cortes" , "edad": 25, "codigo": "022", "notas": [2.0, 3.0, 1.0]}
+]

@@ -27,21 +27,26 @@ class Curso:
     def calcularMediaDelCurso(self):
         suma = 0
         numero_estudiantes = len(self.estudiantes)
-        for estudiante in self.estudiantes:
+        for estudiante in self.estudiantes:  #Recorro lista estudiantes
             suma = suma + estudiante.calcularPromedio()
         promedio_Curso = suma/numero_estudiantes
         return promedio_Curso
 
-
-        
-        
-
-
     def determinarEstudiantesAprobados(self):
-        pass
+        aprobados = []
+        for estudiante in self.estudiantes:
+            promedio_estudiante = estudiante.calcularPromedio()
+            if promedio_estudiante >= 3.0:
+                aprobados.append(estudiante.nombre)
+        return aprobados
 
     def determinarEstudiantesReprobados(self):
-        pass
+        reprobados = []
+        for estudiante in self.estudiantes:
+            promedio_estudiante = estudiante.calcularPromedio()
+            if promedio_estudiante < 3.0:
+                reprobados.append(estudiante.nombre)
+        return reprobados
         
         
         

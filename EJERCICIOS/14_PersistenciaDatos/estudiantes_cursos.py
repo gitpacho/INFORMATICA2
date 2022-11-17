@@ -10,10 +10,13 @@ class Estudiante:
         return promedio
 
     def determinarMejorNota(self):
-        pass
+        mejorNota = max(self.notas)
+        return mejorNota
 
     def determinarPeorNota(self):
-        pass
+        peorNota = min(self.notas)
+        return peorNota
+
 
 
 class Curso:

@@ -31,10 +31,11 @@ class Curso:
 
         listaEstudiantes = []
         for diccionarioEstudiante in data:
-            objetoEstudiante = Estudiante(diccionarioEstudiante["nombre"],
-                                          diccionarioEstudiante["edad"],
-                                          diccionarioEstudiante["codigo"],
-                                          diccionarioEstudiante["notas"] )
+            nombre = diccionarioEstudiante["nombre"]
+            edad = diccionarioEstudiante["edad"]
+            codigo = diccionarioEstudiante["codigo"]
+            notas = diccionarioEstudiante["notas"]
+            objetoEstudiante = Estudiante(nombre,edad,codigo,notas)
             listaEstudiantes.append(objetoEstudiante)
 
         self.estudiantes = listaEstudiantes
@@ -67,6 +68,6 @@ class Curso:
 if __name__ == "__main__":
     curso1 = Curso("Matematicas", "Elisabeth Restrepo")
 
-    #print("media del curso=>", curso1.calcularMediaDelCurso())
-    #print("aprobados", curso1.determinarEstudiantesAprobados())
-    #print("reprobados", curso1.determinarEstudiantesReprobados())    
+    print("media del curso=>", curso1.calcularMediaDelCurso())
+    print("aprobados", curso1.determinarEstudiantesAprobados())
+    print("reprobados", curso1.determinarEstudiantesReprobados())

@@ -6,7 +6,8 @@ class Estudiante:
         self.notas = notas
 
     def calcularPromedio(self):
-        pass
+        promedio = sum(self.notas)/len(self.notas)
+        return promedio
 
     def determinarMejorNota(self):
         pass
@@ -32,15 +33,6 @@ class Curso:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    estudiante1 = Estudiante("Cristian Pachon", 20, "019", [5.0, 1.0, 3.0])
+    print(estudiante1.calcularPromedio())

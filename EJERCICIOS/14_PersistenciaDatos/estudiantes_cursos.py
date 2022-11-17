@@ -25,9 +25,16 @@ class Curso:
         self.estudiantes = estudiantes #lista con objetos de la clase Estudiantes
 
     def calcularMediaDelCurso(self):
-        acum = 0
+        suma = 0
+        numero_estudiantes = len(self.estudiantes)
         for estudiante in self.estudiantes:
-            print(estudiante.nombre,estudiante.notas, estudiante.calcularPromedio())
+            suma = suma + estudiante.calcularPromedio()
+        promedio_Curso = suma/numero_estudiantes
+        return promedio_Curso
+
+
+        
+        
 
 
     def determinarEstudiantesAprobados(self):

@@ -36,7 +36,11 @@ class Curso:
         return Aprobados
 
     def determinarEstudiantesReprobados(self):
-        pass
+        Reprobados = []
+        for nombre in self.estudiantes:
+            if self.estudiantes[nombre] < 3.0:
+                Reprobados.append(nombre)
+        return Reprobados
 
 
 

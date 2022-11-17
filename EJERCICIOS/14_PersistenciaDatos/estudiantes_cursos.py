@@ -58,15 +58,11 @@ if __name__ == "__main__":
     estudiante1 = Estudiante("Cristian Pachon", 20, "019", [0.0, 0.0, 1.5])
     estudiante2 = Estudiante("Maria Jimenez", 15, "020", [5.0, 2.0, 5.0])
     estudiante3 = Estudiante("Lesly Cañas", 19, "021", [5.0, 5.0, 5.0])
-    listaEstudiantes = [estudiante1, estudiante2, estudiante3]
+    estudiante4 = Estudiante("Nicolas Cortes", 25, "022", [2.0, 3.0, 1.0])
+    listaEstudiantes = [estudiante1, estudiante2, estudiante3, estudiante4]
 
-    curso1 = Curso("Matematicas", "Cristian Pachon", listaEstudiantes)
+    curso1 = Curso("Matematicas", "Elisabeth Restrepo", listaEstudiantes)
 
     print("media del curso=>", curso1.calcularMediaDelCurso())
     print("aprobados", curso1.determinarEstudiantesAprobados())
-    print("reprobados", curso1.determinarEstudiantesReprobados())
-
-
-    print(listaEstudiantes)
-
-    
+    print("reprobados", curso1.determinarEstudiantesReprobados())    

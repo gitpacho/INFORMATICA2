@@ -18,18 +18,22 @@ class Estudiante:
         return peorNota
 
 
-
 class Curso:
     def __init__(self, nombreCurso, nombreProfesor, estudiantes):
         self.nombreCurso = nombreCurso
         self.nombreProfesor = nombreProfesor
-        self.estudiantes = estudiantes
+        self.estudiantes = estudiantes #lista de estudiantes, diccionario ....
 
     def calcularMediaDelCurso(self):
-        pass
+        media = sum(self.estudiantes.values())/len(self.estudiantes)
+        return media
 
     def determinarEstudiantesAprobados(self):
-        pass
+        Aprobados= []
+        for nombre in self.estudiantes:
+            if self.estudiantes[nombre] >= 3.0:
+                Aprobados.append(nombre)
+        return Aprobados
 
     def determinarEstudiantesReprobados(self):
         pass
@@ -38,4 +42,14 @@ class Curso:
 
 if __name__ == "__main__":
     estudiante1 = Estudiante("Cristian Pachon", 20, "019", [5.0, 1.0, 3.0])
+    data = {
+    "Cristian P": 1.5,
+    "Maria Jimenes": 4,
+    "Oscar Agudelo":3.5}
+
     print(estudiante1.calcularPromedio())
+
+    curso1 = Curso("Matematicas", "Cristian Pachon", data)
+    print("media del curso=>", curso1.calcularMediaDelCurso())
+
+    

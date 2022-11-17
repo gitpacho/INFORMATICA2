@@ -19,10 +19,25 @@ class Estudiante:
 
 
 class Curso:
-    def __init__(self, nombreCurso, nombreProfesor, estudiantes):
+    def __init__(self, nombreCurso, nombreProfesor):
         self.nombreCurso = nombreCurso
         self.nombreProfesor = nombreProfesor
-        self.estudiantes = estudiantes #lista con objetos de la clase Estudiantes
+        
+        import json
+        ruta = "EJERCICIOS/14_PersistenciaDatos/dataEstudiantes.json"
+        with open(ruta, "r") as file:
+            data = json.load(file)
+        print("lectura de datos=>", data)
+
+        listaEstudiantes = []
+        for diccionarioEstudiante in data:
+            objetoEstudiante = Estudiante(diccionarioEstudiante["nombre"],
+                                          diccionarioEstudiante["edad"],
+                                          diccionarioEstudiante["codigo"],
+                                          diccionarioEstudiante["notas"] )
+            listaEstudiantes.append(objetoEstudiante)
+
+        self.estudiantes = listaEstudiantes
 
     def calcularMediaDelCurso(self):
         suma = 0
@@ -47,22 +62,11 @@ class Curso:
             if promedio_estudiante < 3.0:
                 reprobados.append(estudiante.nombre)
         return reprobados
-        
-        
-        
-        
-
 
 
 if __name__ == "__main__":
-    estudiante1 = Estudiante("Cristian Pachon", 20, "019", [0.0, 0.0, 1.5])
-    estudiante2 = Estudiante("Maria Jimenez", 15, "020", [5.0, 2.0, 5.0])
-    estudiante3 = Estudiante("Lesly Cañas", 19, "021", [5.0, 5.0, 5.0])
-    estudiante4 = Estudiante("Nicolas Cortes", 25, "022", [2.0, 3.0, 1.0])
-    listaEstudiantes = [estudiante1, estudiante2, estudiante3, estudiante4]
+    curso1 = Curso("Matematicas", "Elisabeth Restrepo")
 
-    curso1 = Curso("Matematicas", "Elisabeth Restrepo", listaEstudiantes)
-
-    print("media del curso=>", curso1.calcularMediaDelCurso())
-    print("aprobados", curso1.determinarEstudiantesAprobados())
-    print("reprobados", curso1.determinarEstudiantesReprobados())    
+    #print("media del curso=>", curso1.calcularMediaDelCurso())
+    #print("aprobados", curso1.determinarEstudiantesAprobados())
+    #print("reprobados", curso1.determinarEstudiantesReprobados())    

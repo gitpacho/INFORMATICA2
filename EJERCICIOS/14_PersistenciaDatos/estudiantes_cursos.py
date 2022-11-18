@@ -17,7 +17,6 @@ class Estudiante:
         peorNota = min(self.notas)
         return peorNota
 
-
 class Curso:
     def __init__(self, nombreCurso, nombreProfesor):
         self.nombreCurso = nombreCurso

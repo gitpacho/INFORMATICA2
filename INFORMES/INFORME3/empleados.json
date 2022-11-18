@@ -1,0 +1,18 @@
+[
+    {"nombre":"Cristian Pachon"    , "codigo": "001", "edad": 20, "cargo":"programador", "añosExperiencia":5},
+    {"nombre":"Maria Jimenez"      , "codigo": "002", "edad": 15, "cargo":"guardia",     "añosExperiencia":3},
+    {"nombre":"Camilo Diaz"        , "codigo": "003", "edad": 19, "cargo":"maquetador",  "añosExperiencia":2},
+    {"nombre":"Nicolas Murcia"     , "codigo": "004", "edad": 25, "cargo":"lider",       "añosExperiencia":14},
+    {"nombre":"Leslie Gonzales"    , "codigo": "005", "edad": 20, "cargo":"lider",       "añosExperiencia":13},
+    {"nombre":"Mariana Rosero"     , "codigo": "006", "edad": 15, "cargo":"maquetador",  "añosExperiencia":12},
+    {"nombre":"Camila Vivas"       , "codigo": "007", "edad": 19, "cargo":"programador", "añosExperiencia":21},
+    {"nombre":"Maria Hoyos"        , "codigo": "008", "edad": 25, "cargo":"lider",       "añosExperiencia":12},
+    {"nombre":"Angie Patiño"       , "codigo": "009", "edad": 20, "cargo":"maquetador",  "añosExperiencia":16},
+    {"nombre":"Ximena Londoño"     , "codigo": "010", "edad": 15, "cargo":"lider",       "añosExperiencia":2},
+    {"nombre":"Juan Restrepo"      , "codigo": "011", "edad": 19, "cargo":"maquetador",  "añosExperiencia":3},
+    {"nombre":"Esteban Betancourt" , "codigo": "012", "edad": 25, "cargo":"programador", "añosExperiencia":5},
+    {"nombre":"Gisell Velasquez"   , "codigo": "013", "edad": 20, "cargo":"lider",       "añosExperiencia":9},
+    {"nombre":"Mario Playonero"    , "codigo": "014", "edad": 15, "cargo":"maquetador",  "añosExperiencia":18},
+    {"nombre":"Sebastian Quintero" , "codigo": "015", "edad": 19, "cargo":"programador", "añosExperiencia":9},
+    {"nombre":"Camilo Mendoza"     , "codigo": "016", "edad": 25, "cargo":"maquetador",  "añosExperiencia":3}
+]
